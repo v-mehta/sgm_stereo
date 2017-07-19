@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package>
+  <name>sgm_stereo</name>
+  <version>0.0.1</version>
+  <description>The sgm_stereo package is a ros wrapper around the SGMStereo code by Koichiro Yamaguchi. Source code is located here - https://github.com/siposcsaba89/sps-stereo</description>
+
+  <maintainer email="vmehta@clearpath.ai">vmehta</maintainer>
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_geometry</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>stereo_msgs</build_depend>
+  <build_depend>stereo_image_proc</build_depend>
+  <run_depend>cv_bridge</run_depend>
+  <run_depend>image_geometry</run_depend>
+  <run_depend>image_transport</run_depend>
+  <run_depend>message_filters</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>stereo_msgs</run_depend>
+  <run_depend>stereo_image_proc</run_depend>
+</package>
