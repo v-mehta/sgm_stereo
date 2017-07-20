@@ -2,12 +2,13 @@
 
   <arg name="camera" default="stereo" />
 
-  <node name="stereo_sgm" pkg="stereo_sgm" type="sgm_stereo_node">
+  <node name="sgm_stereo" pkg="sgm_stereo" type="sgm_stereo_node">
     <remap from="left/image_rect" to="$(arg camera)/left/image_rect" />
     <remap from="right/image_rect" to="$(arg camera)/right/image_rect" />
     <remap from="left/camera_info" to="$(arg camera)/left/camera_info" />
     <remap from="right/camera_info" to="$(arg camera)/right/camera_info" />
     <remap from="disparity" to="$(arg camera)/disparity" />
+    <remap from="points2" to="$(arg camera)/points2" />
   </node>
 
 </launch>
