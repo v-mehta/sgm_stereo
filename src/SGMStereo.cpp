@@ -17,6 +17,7 @@
 
 #include <stack>
 #include <algorithm>
+#include <nmmintrin.h>
 #include <immintrin.h>
 #include <stdexcept>
 #include <stack>
